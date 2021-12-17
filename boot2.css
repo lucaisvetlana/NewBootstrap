@@ -1,0 +1,79 @@
+body{
+  min-width: 320px;
+  font-size: 18px;
+  background-color:#B2F9FC;
+  background-image: url(https://st2.depositphotos.com/1284918/7739/i/600/depositphotos_77395444-stock-photo-social-networks-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+img{
+  max-width: 70%;
+  height:auto;
+  margin: auto;
+}
+a{
+  color:#000D6B;
+}
+header{
+background-color:#5C7AEA;
+
+}
+nav{
+  background-color:#5C7AEA;
+}
+.container-fluid{
+  background-color:#5C7AEA;
+}
+header .navbar-nav{
+  margin-left: auto;
+}
+header .navbar-light{
+  background-color: #FFC4E1;
+}
+
+.navbar-brand{
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  color: #009DAE;
+  text-transform: uppercase;
+}
+header .nav-item{
+  text-transform: uppercase;
+  margin-left: 60px;
+}
+header .nav-item a::after{
+  content: '';
+  display: block;
+  width: 100%;
+  background-color:#ccc;
+  height: 1px;
+  transform: scale(0);
+  transition: all .3s;
+}
+header .nav-item a:hover::after{
+  transform: scale(1);
+}
+.slider{
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.col-lg-4{
+  margin: auto;
+  margin-top: 20px;
+}
+.col-lg-12 {
+  margin-top: 20px;
+}
+.col-lg-4 img{
+  height: 200px;
+  width: 300px;
+
+}
+footer{
+  background-color: #5C7AEA;
+  margin-top: 30px;
+  padding: 30px;
+}

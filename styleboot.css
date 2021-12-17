@@ -1,0 +1,93 @@
+body{
+  min-width: 320px;
+  font-size: 14px;
+  font-family: cursive;
+  background-color:#B2F9FC;
+}
+img{
+  max-width: 100%;
+  height:auto;
+}
+a{
+  color:#EED7CE;
+}
+header{
+background-color:#B2F9FC;
+}
+nav{
+  background-color:#B2F9FC;
+}
+.container-fluid{
+  background-color:#B2F9FC;
+}
+header .navbar-nav{
+  margin-left: auto;
+}
+header .navbar-light{
+  background-color: #FFC4E1;
+}
+
+.navbar-brand{
+  font-family: 'Inconsolata', monospace;
+  font-size: 40px;
+  color: #009DAE;
+  text-transform: uppercase;
+}
+header .nav-item{
+  text-transform: uppercase;
+  margin-left: 60px;
+}
+header .nav-item a::after{
+  content: '';
+  display: block;
+  width: 100%;
+  background-color:#ccc;
+  height: 1px;
+  transform: scale(0);
+  transition: all .3s;
+}
+header .nav-item a:hover::after{
+  transform: scale(1);
+}
+.slider{
+  margin-bottom: 60px;
+}
+.grid-posts{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.card{
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.card-body{
+  padding-left: 0;
+}
+.card-img-top{
+  min-height: 200px;
+}
+.Text-posts{
+  margin-bottom: 50px;
+  background-color:#71DFE7;
+  padding: 20px;
+}
+footer{
+  margin-top: 30px;
+  padding: 40px;
+  background-image: url(https://st2.depositphotos.com/1284918/7739/i/600/depositphotos_77395444-stock-photo-social-networks-background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.Imgcard{
+  margin-bottom: 20px;
+}
+.col-md-6 img{
+  height: 200px;
+  width: 300px;
+}
